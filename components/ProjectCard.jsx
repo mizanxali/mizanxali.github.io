@@ -4,7 +4,7 @@ import { FaPlay, FaGithub } from 'react-icons/fa'
 
 const ProjectCard = props => {
     return (
-        <div className='max-w-96 bg-gray-400 text-center hover:shadow-2xl'>
+        <div className='max-w-96 bg-gray-400 text-center hover:shadow'>
             <div>
                 <img className='w-full' src={props.imgSrc} />
             </div>
