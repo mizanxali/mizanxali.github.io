@@ -8,6 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <title>mizanxali | Portfolio</title>
+        <meta name="description" content="Portfolio website built using Next.js and Tailwind CSS." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -28,17 +29,17 @@ export default function Home() {
 
       {/* Tech Stack */}
       <h1 className='text-center text-white text-3xl mb-2'>Tools & Technologies I've Worked With</h1>
-      <div className='grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-6 gap-2 w-3/4 mx-auto py-5 px-3  rounded-lg mb-10'>
-        {tech.map(item => {
-          return <span className='text-base bg-gray-300 hover:bg-gray-200 py-2 px-4 rounded-md text-center cursor-default'>{item}</span>
+      <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-2 w-3/4 mx-auto py-5 px-3  rounded-lg mb-10'>
+        {tech.map((item, i) => {
+          return <span key={i} className='text-base bg-gray-300 hover:bg-gray-200 py-2 px-4 rounded-md text-center cursor-default'>{item}</span>
         })}
       </div>
 
       {/* Web Projects */}
       <h1 className='text-center text-white text-3xl mb-2'>My Web Apps</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 mx-auto py-5 px-3 rounded-lg'>
-        {projects.map(project => {
-          return <ProjectCard type={project.type} title={project.title} description={project.description} imgSrc={project.imgSrc} repoURL={project.repoURL} liveURL={project.liveURL} techStack={project.techStack}  />
+        {projects.map((project, i) => {
+          return <ProjectCard key={i} type={project.type} title={project.title} description={project.description} imgSrc={project.imgSrc} repoURL={project.repoURL} liveURL={project.liveURL} techStack={project.techStack}  />
         })}
       </div>
 

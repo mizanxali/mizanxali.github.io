@@ -1,12 +1,12 @@
 export const tech = [
-    'React', 'Redux', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'Firebase', 'Material-UI', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Heroku', 'Git', 'Tailwind CSS', 'React-Bootstrap'
+    'React', 'Redux', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Heroku', 'Git', 'Tailwind CSS', 'React-Bootstrap', 'Material-UI'
 ]
 
 export const projects = [
     {
         type: 'Personal Project',
         title: 'UNO Online',
-        description: 'Real time two-player UNO browser game.',
+        description: 'Two player online game of UNO.',
         imgSrc: '/uno-online.png',
         repoURL: 'https://github.com/mizanxali/uno-online',
         liveURL: 'https://uno-online-multiplayer.herokuapp.com/',
