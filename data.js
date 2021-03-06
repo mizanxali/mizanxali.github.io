@@ -15,7 +15,7 @@ export const projects = [
     {
         type: 'Personal Project',
         title: 'Drake Lyrics',
-        description: 'Web app to randomly generate lyrics from over 170 different songs by Drake to use as your social media captions/bios.',
+        description: 'Web app to randomly generate lyrics from over 170 different songs by Drake to use as your social media captions/bios. Fetches lyrics from Genius.',
         imgSrc: '/drake-lyrics.png',
         repoURL: 'https://github.com/mizanxali/drake-lyrics',
         liveURL: 'http://www.drakelyrics.live/',
