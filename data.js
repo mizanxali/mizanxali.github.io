@@ -33,7 +33,7 @@ export const projects = [
     {
         type: 'Personal Project',
         title: 'Cricket Scorer',
-        description: 'Front-end web app to keep score of cricket matches. Includes real time batting/bowling scorecard for each team.',
+        description: 'Front-end web app to keep score of cricket matches. Includes real time batting and bowling scorecard for each team.',
         imgSrc: '/cricket-scorer.png',
         repoURL: 'https://github.com/mizanxali/cricket-scorer-js',
         liveURL: 'https://mizanxali.github.io/cricket-scorer-js',
@@ -78,7 +78,7 @@ export const projects = [
     {
         type: 'Course Project',
         title: 'Flamin Burger',
-        description: "A website to build and order a custom burger. Uses Firebase authentication and database.",
+        description: "A website to build and order a custom burger. Uses Firebase authentication and database for each user's order history.",
         imgSrc: '/flamin-burger.png',
         repoURL: 'https://github.com/mizanxali/flamin-burger',
         liveURL: 'https://mizanxali.github.io/flamin-burger/',

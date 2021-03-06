@@ -10,7 +10,7 @@ const ProjectCard = props => {
             </div>
             <div className='text-gray-800 text-base bg-gray-300 hover:bg-gray-200 py-2 px-4 text-center cursor-default'>{props.type}</div>
             <div className='text-gray-800 my-2 text-2xl font-medium'>{props.title}</div>
-            <div className='text-gray-800 my-2 h-44 sm:h-32 text-lg px-3'>{props.description}</div>
+            <div className='text-gray-800 my-2 h-52 sm:h-40 text-lg px-3'>{props.description}</div>
             <div className='mx-4 flex flex-row flex-wrap justify-center'>
                 {props.techStack.map((item, i) => {
                     return <span key={i} className='m-1 bg-gray-300 hover:bg-gray-200 py-1 px-2 rounded-xl text-center cursor-default'>{item}</span>
