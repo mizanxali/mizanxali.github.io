@@ -6,7 +6,7 @@ export const projects = [
     {
         type: 'Personal Project',
         title: 'UNO Online',
-        description: 'Two player online game of UNO.',
+        description: 'Two player online version of the card game UNO. Real time multiplayer communnication supported using web sockets. Includes text chat functionality too.',
         imgSrc: '/uno-online.png',
         repoURL: 'https://github.com/mizanxali/uno-online',
         liveURL: 'https://uno-online-multiplayer.herokuapp.com/',
@@ -24,16 +24,16 @@ export const projects = [
     {
         type: 'Personal Project',
         title: 'GOTPEDIA',
-        description: 'Online encyclopedia of the world of Game of Thrones. Includes plot for every episode and information about characters and houses.',
+        description: 'Online encyclopedia of the world of Game of Thrones. Includes plot for every episode and information about characters and houses. Uses Firebase database.',
         imgSrc: '/gotpedia.png',
         repoURL: 'https://github.com/mizanxali/gotpedia',
         liveURL: 'https://mizanxali.github.io/gotpedia/',
-        techStack: ['React', 'React-Bootstrap']
+        techStack: ['React', 'React-Bootstrap', 'Firebase']
     },
     {
         type: 'Personal Project',
         title: 'Cricket Scorer',
-        description: 'Web app to keep score of cricket matches. Includes real time batting/bowling scorecard for each team.',
+        description: 'Front-end web app to keep score of cricket matches. Includes real time batting/bowling scorecard for each team.',
         imgSrc: '/cricket-scorer.png',
         repoURL: 'https://github.com/mizanxali/cricket-scorer-js',
         liveURL: 'https://mizanxali.github.io/cricket-scorer-js',
@@ -60,7 +60,7 @@ export const projects = [
     {
         type: 'Course Project',
         title: 'Dev Connect',
-        description: 'Social network for developers.',
+        description: 'Full stack social network application for developers. Includes features like user profile, feed, posts, comments.',
         imgSrc: '/dev-connect.png',
         repoURL: 'https://github.com/mizanxali/dev-connect',
         liveURL: 'https://dev-connect-5270.herokuapp.com/',
@@ -78,10 +78,10 @@ export const projects = [
     {
         type: 'Course Project',
         title: 'Flamin Burger',
-        description: "A website to build and order a custom burger.",
-        imgSrc: '',
+        description: "A website to build and order a custom burger. Uses Firebase authentication and database.",
+        imgSrc: '/flamin-burger.png',
         repoURL: 'https://github.com/mizanxali/flamin-burger',
-        liveURL: '',
+        liveURL: 'https://mizanxali.github.io/flamin-burger/',
         techStack: ['React', 'Redux', 'Firebase']
     },
 ]
