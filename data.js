@@ -6,7 +6,7 @@ export const projects = [
     {
         type: 'Personal Project',
         title: 'UNO Online',
-        description: 'Two player online version of the card game UNO. Real time multiplayer communnication supported using web sockets. Includes text chat functionality too.',
+        description: 'Two player online version of the card game UNO. Real time multiplayer communication supported using web sockets. Includes text chat functionality too.',
         imgSrc: '/uno-online.png',
         repoURL: 'https://github.com/mizanxali/uno-online',
         liveURL: 'https://uno-online-multiplayer.herokuapp.com/',
