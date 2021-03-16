@@ -1,5 +1,5 @@
 export const tech = [
-    'React', 'Redux', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Docusaurus', 'Heroku', 'Git', 'Tailwind CSS', 'React-Bootstrap', 'Material-UI'
+    'React', 'GraphQL', 'Apollo Client', 'Redux', 'Next.js', 'Node.js', 'Express', 'Apollo Server', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Docusaurus', 'Heroku', 'Git', 'Tailwind CSS', 'React-Bootstrap', 'Material-UI', 'Semantic-UI'
 ]
 
 export const projects = [
