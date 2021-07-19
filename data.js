@@ -10,6 +10,7 @@ export const projects = [
         imgSrc: '/raven.png',
         repoURL: 'https://github.com/elecTRON-Fellowship/raven-frontendhttps://github.com/elecTRON-Fellowship/raven-frontend',
         liveURL: 'https://drive.google.com/file/d/1EGUI2HfoNEjTll-CEhQP3XuA7qckfkT_/view',
+        devpostURL: 'https://devpost.com/software/fwallet',
         techStack: ['Flutter', 'Firebase']
     },
     {
