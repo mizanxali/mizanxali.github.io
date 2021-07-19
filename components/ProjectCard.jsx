@@ -21,7 +21,7 @@ const ProjectCard = props => {
             <div className='mb-2'>
                 <a href={props.liveURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-base mr-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaPlay className='inline' /> APP</div></a>
                 <a href={props.repoURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-base ml-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaGithub className='inline' /> REPO</div></a>
-                {props.devpostURL && <a href={props.repoURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-base ml-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaCode className='inline' /> DEVPOST</div></a>}
+                {props.devpostURL && <a href={props.devpostURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-base ml-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaCode className='inline' /> DEVPOST</div></a>}
 </div>
         </div>
     )
