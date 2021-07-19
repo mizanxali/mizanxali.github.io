@@ -13,11 +13,11 @@ export default function Home() {
       </Head>
 
       {/* Intro */}
-      <div className='flex flex-col md:flex-row justify-around w-3/4 mt-5 mb-10 mx-auto py-5 px-3 rounded-lg'>
-        <div><img src='/mizan.jpg' className='w-full rounded-full' /></div>
+      <div className='flex flex-col md:flex-row justify-around items-center w-3/4 mt-5 mb-10 mx-auto py-5 px-3 rounded-lg'>
+        <div><img src='/mizan.jpg' className='w-3/4 rounded-full' /></div>
         <div className='mt-5 md:mt-0 flex-auto text-center px-5'>
           <div className='text-4xl text-gray-100'>Hey there! I am Mizan Ali, aka <em>mizanxali</em>.</div>
-          <div className='text-2xl mt-2 text-gray-400'>I'm a sophomore at VIT Bhopal University studying CS Engineering with specialization in Gaming Technology. I'm a MERN stack Web Developer. I love React JS, Cricket, Rap Music, and Game of Thrones. I'm also a skilled Video Editor.</div>
+          <div className='text-2xl mt-2 text-gray-400'>I'm a third year student at VIT Bhopal University studying CS Engineering with specialization in Gaming Technology.<br />I build full stack web apps using the MERN stack and mobile apps using Flutter.<br />I love React, Flutter, Cricket, Rap Music, and Game of Thrones. I'm also a skilled Video Editor.</div>
           <div>
             <a href='https://github.com/mizanxali' target='_blank' rel='noopener noreferrer'><FaGithub className='my-3 mx-3 text-3xl text-gray-100 inline' /></a>
             <a href='https://linkedin.com/in/mizanxali' target='_blank' rel='noopener noreferrer'><FaLinkedin className='my-3 mx-3 text-3xl text-gray-100 inline' /></a>
@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
       {/* Web Projects */}
-      <h1 className='text-center text-white text-3xl mb-2'>My Web Apps</h1>
+      <h1 className='text-center text-white text-3xl mb-2'>My Web/Mobile Apps</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 mx-auto py-5 px-3 rounded-lg'>
         {projects.map((project, i) => {
           return <ProjectCard key={i} type={project.type} title={project.title} description={project.description} imgSrc={project.imgSrc} repoURL={project.repoURL} liveURL={project.liveURL} techStack={project.techStack}  />

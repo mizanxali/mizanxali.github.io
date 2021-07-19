@@ -1,8 +1,17 @@
 export const tech = [
-    'React', 'GraphQL', 'Apollo Client', 'Redux', 'Next.js', 'Node.js', 'Express', 'Apollo Server', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Docusaurus', 'Heroku', 'Git', 'Tailwind CSS', 'React-Bootstrap', 'Material-UI', 'Semantic-UI'
+    'Flutter', 'React', 'GraphQL', 'Apollo Client', 'Redux', 'Next.js', 'Node.js', 'Express', 'Apollo Server', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Docusaurus', 'Heroku', 'Git', 'Tailwind CSS', 'React-Bootstrap', 'Material-UI', 'Semantic-UI'
 ]
 
 export const projects = [
+    {
+        type: 'Team Project',
+        title: 'Raven',
+        description: 'Raven is an Android app that allows you to do more with less. Chat with friends, lend and borrow money from those you trust, find places to visit and share cab rides with friends, all in one app.',
+        imgSrc: '/raven.png',
+        repoURL: 'https://github.com/elecTRON-Fellowship/raven-frontendhttps://github.com/elecTRON-Fellowship/raven-frontend',
+        liveURL: 'https://drive.google.com/file/d/1EGUI2HfoNEjTll-CEhQP3XuA7qckfkT_/view',
+        techStack: ['Flutter', 'Firebase']
+    },
     {
         type: 'Personal Project',
         title: 'UNO Online',
@@ -51,11 +60,29 @@ export const projects = [
     {
         type: 'Team Project',
         title: 'One Step - elecTRON',
-        description: 'OneStepML is a community-led, open-sourced, e-learning platform for Machine Learning and Data Science, developed at elecTRON.',
+        description: 'OneStepML is a community-led, open-sourced, e-learning platform for Machine Learning and Data Science.',
         imgSrc: '/onestep-electron.png',
         repoURL: 'https://github.com/OneStep-elecTRON/onestep-electron.github.io',
         liveURL: 'https://onestep-electron.github.io/',
         techStack: ['React', 'Next.js', 'Docusaurus', 'Typescript']
+    },
+    {
+        type: 'Personal Project',
+        title: 'GK Quiz App',
+        description: "A Simple GK Quiz Web App of 10 random general knowledge questions, dyanimcally fetched from Open Trivia DB. Made with React JS, using Typescript.",
+        imgSrc: '/gk-quiz-app.png',
+        repoURL: 'https://github.com/mizanxali/GK-quiz-app',
+        liveURL: 'https://mizanxali.github.io/GK-quiz-app',
+        techStack: ['React', 'Typescript']
+    },
+    {
+        type: 'Personal Project',
+        title: 'Chat Web App',
+        description: "Real-time chat web app built with React, Express and Socket.IO. Multiple users can join different rooms using the room name and chat with each other.",
+        imgSrc: '/chat-app.png',
+        repoURL: 'https://github.com/mizanxali/chat-app-react',
+        liveURL: 'https://chat-app-react-5270.herokuapp.com/',
+        techStack: ['React', 'Socket.IO', 'Express', 'Node.js']
     },
     {
         type: 'Course Project',
@@ -83,5 +110,5 @@ export const projects = [
         repoURL: 'https://github.com/mizanxali/flamin-burger',
         liveURL: 'https://mizanxali.github.io/flamin-burger/',
         techStack: ['React', 'Redux', 'Firebase']
-    },
+    }
 ]
