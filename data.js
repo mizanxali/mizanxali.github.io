@@ -28,7 +28,7 @@ export const projects = [
         description: 'Web app to randomly generate lyrics from over 170 different songs by Drake to use as your social media captions/bios. Fetches lyrics from Genius.',
         imgSrc: '/drake-lyrics.png',
         repoURL: 'https://github.com/mizanxali/drake-lyrics',
-        liveURL: 'http://www.drakelyrics.live/',
+        liveURL: 'https://drake-lyrics.herokuapp.com/',
         techStack: ['React', 'Express', 'Node.js']
     },
     {
