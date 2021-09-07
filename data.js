@@ -1,5 +1,5 @@
 export const tech = [
-    'Flutter', 'React', 'GraphQL', 'Apollo Client', 'Redux', 'Next.js', 'Node.js', 'Express', 'Apollo Server', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Docusaurus', 'Heroku', 'Git', 'Tailwind CSS', 'React-Bootstrap', 'Material-UI', 'Semantic-UI'
+    'Flutter', 'React', 'GraphQL', 'Apollo Client', 'Redux', 'Next.js', 'Node.js', 'Express', 'Apollo Server', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Docusaurus', 'Heroku', 'Git', 'Tailwind CSS'
 ]
 
 export const projects = [
@@ -8,7 +8,7 @@ export const projects = [
         title: 'Raven',
         description: 'Raven is an Android app that allows you to do more with less. Chat with friends, lend and borrow money from those you trust, find places to visit and share cab rides with friends, all in one app.',
         imgSrc: '/raven.png',
-        repoURL: 'https://github.com/elecTRON-Fellowship/raven-frontendhttps://github.com/elecTRON-Fellowship/raven-frontend',
+        repoURL: 'https://github.com/elecTRON-Fellowship/raven-frontend',
         liveURL: 'https://drive.google.com/file/d/1EGUI2HfoNEjTll-CEhQP3XuA7qckfkT_/view',
         devpostURL: 'https://devpost.com/software/fwallet',
         techStack: ['Flutter', 'Firebase']
@@ -70,7 +70,7 @@ export const projects = [
     {
         type: 'Personal Project',
         title: 'GK Quiz App',
-        description: "A Simple GK Quiz Web App of 10 random general knowledge questions, dyanimcally fetched from Open Trivia DB. Made with React JS, using Typescript.",
+        description: "A Simple GK Quiz Web App of 10 random general knowledge questions, dynamically fetched from Open Trivia DB. Made with React JS, using Typescript.",
         imgSrc: '/gk-quiz-app.png',
         repoURL: 'https://github.com/mizanxali/GK-quiz-app',
         liveURL: 'https://mizanxali.github.io/GK-quiz-app',
