@@ -9,7 +9,7 @@ const ProjectCard = props => {
                 <div>
                     <img className='w-full' src={props.imgSrc} />
                 </div>
-                <div className='text-gray-800 text-base bg-gray-300 hover:bg-gray-200 py-2 px-4 text-center cursor-default'>{props.type}</div>
+                {/* <div className='text-gray-800 text-base bg-gray-300 hover:bg-gray-200 py-2 px-4 text-center cursor-default'>{props.type}</div> */}
                 <div className='text-gray-800 my-2 text-2xl font-medium'>{props.title}</div>
                 <div className='text-gray-800 my-2 h-52 sm:h-40 text-lg px-3'>{props.description}</div>
                 <div className='mx-4 flex flex-row flex-wrap justify-center'>
@@ -19,9 +19,9 @@ const ProjectCard = props => {
                 </div>
             </div>
             <div className='mb-2'>
-                <a href={props.liveURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-base mr-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaPlay className='inline' /> APP</div></a>
-                <a href={props.repoURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-base ml-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaGithub className='inline' /> REPO</div></a>
-                {props.devpostURL && <a href={props.devpostURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-base ml-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaCode className='inline' /> DEVPOST</div></a>}
+                <a href={props.liveURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-sm mr-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaPlay className='inline' /> APP</div></a>
+                <a href={props.repoURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-sm ml-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaGithub className='inline' /> REPO</div></a>
+                {props.submissionURL && <a href={props.submissionURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-sm ml-2 my-2 bg-gray-300 hover:bg-gray-800 hover:text-gray-300 cursor-pointer py-2 px-4 rounded'><FaCode className='inline' /> SUBMISSION</div></a>}
 </div>
         </div>
     )
@@ -35,7 +35,7 @@ ProjectCard.propTypes = {
     liveURL: PropTypes.string,
     imgSrc: PropTypes.string.isRequired,
     techStack: PropTypes.array.isRequired,
-    devpostURL: PropTypes.string
+    submissionURL: PropTypes.string
 }
 
 export default ProjectCard

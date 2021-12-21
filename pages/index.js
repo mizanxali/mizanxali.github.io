@@ -42,8 +42,8 @@ export default function Home() {
       <h1 className='text-center text-white text-3xl mb-2'>My Web/Mobile Apps</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 mx-auto py-5 px-3 rounded-lg'>
         {projects.map((project, i) => {
-          return project.devpostURL ?
-            <ProjectCard key={i} type={project.type} title={project.title} description={project.description} imgSrc={project.imgSrc} repoURL={project.repoURL} liveURL={project.liveURL} techStack={project.techStack} devpostURL={project.devpostURL} />
+          return project.submissionURL ?
+            <ProjectCard key={i} type={project.type} title={project.title} description={project.description} imgSrc={project.imgSrc} repoURL={project.repoURL} liveURL={project.liveURL} techStack={project.techStack} submissionURL={project.submissionURL} />
             : <ProjectCard key={i} type={project.type} title={project.title} description={project.description} imgSrc={project.imgSrc} repoURL={project.repoURL} liveURL={project.liveURL} techStack={project.techStack} />
         })}
       </div>

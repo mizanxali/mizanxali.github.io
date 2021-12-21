@@ -1,8 +1,35 @@
 export const tech = [
-    'Flutter', 'React', 'GraphQL', 'Apollo Client', 'Redux', 'Next.js', 'Node.js', 'Express', 'Apollo Server', 'MongoDB', 'Firebase', 'TypeScript', 'Socket.IO', 'SSR/SSG', 'Docusaurus', 'Heroku', 'Git', 'Tailwind CSS'
+    'Flutter',
+    'React',
+    'GraphQL',
+    'Apollo Client',
+    'Redux',
+    'Next.js',
+    'Node.js',
+    'Express',
+    'Apollo Server',
+    'MongoDB',
+    'Firebase',
+    'TypeScript',
+    'Socket.IO',
+    'SSR/SSG',
+    'Docusaurus',
+    'Heroku',
+    'Git',
+    'Tailwind CSS'
 ]
 
 export const projects = [
+    {
+        type: 'Team Project',
+        title: 'Recon',
+        description: 'Recon is a marketplace for gamers to buy and sell gameplay clips as NFTs. Treating gameplay like the art it is.',
+        imgSrc: '/recon.png',
+        repoURL: 'https://github.com/mizanxali/recon',
+        liveURL: 'https://recon-pink.vercel.app/',
+        submissionURL: 'https://devfolio.co/submissions/recon-dcd6',
+        techStack: ['Polygon', 'Solidity', 'Hardhat', 'IPFS', 'MetaMask', 'Alchemy', 'Next.js', 'Tailwind CSS']
+    },
     {
         type: 'Team Project',
         title: 'Raven',
@@ -10,7 +37,7 @@ export const projects = [
         imgSrc: '/raven.png',
         repoURL: 'https://github.com/elecTRON-Fellowship/raven-frontend',
         liveURL: 'https://drive.google.com/file/d/1EGUI2HfoNEjTll-CEhQP3XuA7qckfkT_/view',
-        devpostURL: 'https://devpost.com/software/fwallet',
+        submissionURL: 'https://devpost.com/software/fwallet',
         techStack: ['Flutter', 'Firebase']
     },
     {
@@ -102,14 +129,5 @@ export const projects = [
         repoURL: 'https://github.com/mizanxali/netflix-clone',
         liveURL: 'https://mizanxali.github.io/netflix-clone/',
         techStack: ['React', 'Firebase']
-    },
-    {
-        type: 'Course Project',
-        title: 'Flamin Burger',
-        description: "A website to build and order a custom burger. Uses Firebase authentication and database for each user's order history.",
-        imgSrc: '/flamin-burger.png',
-        repoURL: 'https://github.com/mizanxali/flamin-burger',
-        liveURL: 'https://mizanxali.github.io/flamin-burger/',
-        techStack: ['React', 'Redux', 'Firebase']
     }
 ]
