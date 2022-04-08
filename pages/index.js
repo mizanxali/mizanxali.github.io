@@ -32,11 +32,9 @@ export default function Home() {
             Engineering with specialization in Gaming Technology.
             <br />I build full stack web apps using the MERN stack and mobile
             apps using React Native and Flutter.
-            <br />
-            I'm currently an SDE Intern at Trell.
             <br />I love React, Cricket, Rap Music, and Game of Thrones.
             <br />
-            I'm also a skilled Video Editor.
+            I'm also a skilled video editor.
           </div>
           <div>
             <a
