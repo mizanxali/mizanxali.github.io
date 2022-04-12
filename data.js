@@ -77,18 +77,6 @@ export const projects = [
     ],
   },
   {
-    type: "Team Project",
-    title: "Raven",
-    description:
-      "Raven is an Android app that allows you to do more with less. Chat with friends, lend and borrow money from those you trust, find places to visit and share cab rides with friends, all in one app.",
-    imgSrc: "/raven.png",
-    repoURL: "https://github.com/elecTRON-Fellowship/raven-frontend",
-    liveURL:
-      "https://drive.google.com/file/d/1EGUI2HfoNEjTll-CEhQP3XuA7qckfkT_/view",
-    submissionURL: "https://devpost.com/software/fwallet",
-    techStack: ["Flutter", "Firebase"],
-  },
-  {
     type: "Personal Project",
     title: "UNO Online",
     description:
@@ -107,6 +95,16 @@ export const projects = [
     repoURL: "https://github.com/mizanxali/drake-lyrics",
     liveURL: "https://drake-lyrics.herokuapp.com/",
     techStack: ["React", "Express", "Node.js"],
+  },
+  {
+    type: "Personal Project",
+    title: "Comsic Cars",
+    description:
+      "An online 3D car showroom. Built with React and Three.js using React Three Fibre.",
+    imgSrc: "/cosmic-cars.png",
+    repoURL: "https://github.com/mizanxali/cosmic-cars",
+    liveURL: "https://mizanxali.github.io/cosmic-cars/",
+    techStack: ["React", "Three.js", "React Three Fibre"],
   },
   {
     type: "Personal Project",
@@ -140,6 +138,18 @@ export const projects = [
   },
   {
     type: "Team Project",
+    title: "Raven",
+    description:
+      "Raven is an Android app that allows you to do more with less. Chat with friends, lend and borrow money from those you trust, find places to visit and share cab rides with friends, all in one app.",
+    imgSrc: "/raven.png",
+    repoURL: "https://github.com/elecTRON-Fellowship/raven-frontend",
+    liveURL:
+      "https://drive.google.com/file/d/1EGUI2HfoNEjTll-CEhQP3XuA7qckfkT_/view",
+    submissionURL: "https://devpost.com/software/fwallet",
+    techStack: ["Flutter", "Firebase"],
+  },
+  {
+    type: "Team Project",
     title: "One Step - elecTRON",
     description:
       "OneStepML is a community-led, open-sourced, e-learning platform for Machine Learning and Data Science.",
@@ -158,16 +168,16 @@ export const projects = [
     liveURL: "https://mizanxali.github.io/GK-quiz-app",
     techStack: ["React", "Typescript"],
   },
-  {
-    type: "Personal Project",
-    title: "Chat Web App",
-    description:
-      "Real-time chat web app built with React, Express and Socket.IO. Multiple users can join different rooms using the room name and chat with each other.",
-    imgSrc: "/chat-app.png",
-    repoURL: "https://github.com/mizanxali/chat-app-react",
-    liveURL: "https://chat-app-react-5270.herokuapp.com/",
-    techStack: ["React", "Socket.IO", "Express", "Node.js"],
-  },
+  // {
+  //   type: "Personal Project",
+  //   title: "Chat Web App",
+  //   description:
+  //     "Real-time chat web app built with React, Express and Socket.IO. Multiple users can join different rooms using the room name and chat with each other.",
+  //   imgSrc: "/chat-app.png",
+  //   repoURL: "https://github.com/mizanxali/chat-app-react",
+  //   liveURL: "https://chat-app-react-5270.herokuapp.com/",
+  //   techStack: ["React", "Socket.IO", "Express", "Node.js"],
+  // },
   {
     type: "Course Project",
     title: "Dev Connect",
