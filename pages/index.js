@@ -1,6 +1,12 @@
 import Head from "next/head"
 import ProjectCard from "../components/ProjectCard"
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa"
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa"
 import { tech, projects } from "../data"
 
 export default function Home() {
@@ -74,7 +80,14 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram className="my-3 ml-3 text-3xl text-purple-700 inline" />
+              <FaInstagram className="my-3 mx-3 text-3xl text-purple-700 inline" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UC2Q5f_ERpGo-wEK_9eP_ipg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube className="my-3 ml-3 text-4xl text-purple-700 inline" />
             </a>
           </div>
         </div>
