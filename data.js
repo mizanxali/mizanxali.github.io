@@ -27,7 +27,6 @@ export const projects = [
       "Pit Stop is a a web3 Formula1 fantasy game platform where players can build their virtual garages by minting F1 cars as NFTs and compete with others by wagering these NFT cars on real life F1 Grand Prix.",
     imgSrc: "/pit-stop.png",
     repoURL: "https://github.com/mizanxali/pit-stop",
-    liveURL: "https://pit-stop.vercel.app//",
     submissionURL: "https://devfolio.co/projects/pit-stop-a06f",
     techStack: [
       "Polygon",
