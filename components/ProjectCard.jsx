@@ -20,7 +20,7 @@ const ProjectCard = props => {
             </div>
             <div className='mb-2'>
                 {props.liveURL && <a href={props.liveURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-sm mr-2 my-2 border-black border-2 hover:bg-black text-black hover:text-white cursor-pointer py-2 px-4 rounded'><FaPlay className='inline' /> APP</div></a>}
-                <a href={props.repoURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-sm ml-2 my-2 border-black border-2 hover:bg-black text-black hover:text-white cursor-pointer py-2 px-4 rounded'><FaGithub className='inline' /> REPO</div></a>
+                {props.repoURL && <a href={props.repoURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-sm ml-2 my-2 border-black border-2 hover:bg-black text-black hover:text-white cursor-pointer py-2 px-4 rounded'><FaGithub className='inline' /> REPO</div></a>}
                 {props.submissionURL && <a href={props.submissionURL} target='_blank' rel='noopener noreferrer'><div className='inline-block text-sm ml-2 my-2 border-black border-2 hover:bg-black text-black hover:text-white cursor-pointer py-2 px-4 rounded'><FaCode className='inline' /> SUBMISSION</div></a>}
             </div>
         </div>
